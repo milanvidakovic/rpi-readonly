@@ -1,14 +1,9 @@
-# Make raspberry pi raspbian file system read-only
-
-Project moved to gitlab due to Microsoft's buyout.
-
-https://gitlab.com/larsfp/rpi-readonly
-
 # rpi-readonly
 Make raspberry pi raspbian file system read-only
 
 Based on https://hallard.me/raspberry-pi-read-only/
 
+* for debian buster, the sudo/ts line has been removed from fstab.
 * setup.sh - Tested OK on 2017-11-29-raspbian-stretch*.img
 * Old version named setup.sh.jessie - Tested OK on 2017-04-10-raspbian-jessie*.img
 
